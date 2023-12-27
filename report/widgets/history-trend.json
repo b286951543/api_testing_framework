@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 10,
+  "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  }
+} ]

@@ -1,0 +1,16 @@
+[32mINFO    [0m util.logger_util:http_protocol.py:26 请求地址: https://qyapi.weixin.qq.com/cgi-bin/department/create
+[32mINFO    [0m util.logger_util:http_protocol.py:28 请求参数: 
+{
+  "json": {
+    "name": "",
+    "parentid": 1
+  },
+  "params": {
+    "access_token": "WPAQIkGfkeGameeFGUORxIp80dhAk8rJ5_C7xpUsAr-fJEf_kMurEkDX09elr1_8KVFrtC3WwSBYxd0Zy8vHLzByzJOKTGDzhfuq8oExPbwa4icyTN7DbEeXev8j06PZRAF7CK8FCw-JnEEmDkXPRbPcYFeQNTgqg2tBh89UtJ26jGEeTJJ0inB9Pp42ppVeb1sqAxVBbXlt4PRfQ5y2_Q"
+  }
+}
+[32mINFO    [0m util.logger_util:http_protocol.py:30 响应结果: 
+{
+  "errcode": 40058,
+  "errmsg": "name exceed min utf8 words 1. invalid Request Parameter, hint: [1703510306516410247792362], from ip: 113.84.0.229, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}

@@ -1,0 +1,810 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-M2JE9DMD391",
+    "children" : [ {
+      "name" : "7300-MainThread",
+      "children" : [ {
+        "name" : "删除部门",
+        "uid" : "34057c26154c7110",
+        "parentUid" : "cc7b96c6c9f749669e4e463c8948eb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521157324,
+          "stop" : 1703521158030,
+          "duration" : 706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "ff9233346ed3e293",
+        "parentUid" : "cc7b96c6c9f749669e4e463c8948eb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521156721,
+          "stop" : 1703521157076,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "b6d8bd3aa3b35313",
+        "parentUid" : "cc7b96c6c9f749669e4e463c8948eb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521155969,
+          "stop" : 1703521156375,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "d2a9bfa96f7ae2bb",
+        "parentUid" : "cc7b96c6c9f749669e4e463c8948eb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521156393,
+          "stop" : 1703521156706,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "3d7c37d3a0d8e695",
+        "parentUid" : "cc7b96c6c9f749669e4e463c8948eb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521157090,
+          "stop" : 1703521157309,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc7b96c6c9f749669e4e463c8948eb00"
+    }, {
+      "name" : "2024-MainThread",
+      "children" : [ {
+        "name" : "创建部门",
+        "uid" : "6f51c0f82d719a5a",
+        "parentUid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510308635,
+          "stop" : 1703510309089,
+          "duration" : 454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "312ee485e2e63736",
+        "parentUid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510309519,
+          "stop" : 1703510309827,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "635ab3205c438362",
+        "parentUid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510309095,
+          "stop" : 1703510309488,
+          "duration" : 393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "c7979c31ee5369fa",
+        "parentUid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510309858,
+          "stop" : 1703510310094,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除部门",
+        "uid" : "533ea7ec2a6f47fb",
+        "parentUid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510310094,
+          "stop" : 1703510310771,
+          "duration" : 677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4887e57ee6e3bfb58ddaa4b5ed2054f9"
+    }, {
+      "name" : "4060-MainThread",
+      "children" : [ {
+        "name" : "创建部门",
+        "uid" : "a10ea427ca6cbd76",
+        "parentUid" : "f2dc9293293005038b9d9a42fac2fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513653679,
+          "stop" : 1703513654098,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "3e3434d7431fbb6e",
+        "parentUid" : "f2dc9293293005038b9d9a42fac2fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513654922,
+          "stop" : 1703513655133,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "aa8713cacf112a21",
+        "parentUid" : "f2dc9293293005038b9d9a42fac2fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513654104,
+          "stop" : 1703513654565,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "471fe8a41bf0852b",
+        "parentUid" : "f2dc9293293005038b9d9a42fac2fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513654576,
+          "stop" : 1703513654916,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "删除部门",
+        "uid" : "b816f93010c07600",
+        "parentUid" : "f2dc9293293005038b9d9a42fac2fd06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513655133,
+          "stop" : 1703513655791,
+          "duration" : 658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2dc9293293005038b9d9a42fac2fd06"
+    }, {
+      "name" : "11452-MainThread",
+      "children" : [ {
+        "name" : "删除部门",
+        "uid" : "5f8874505eae0f8e",
+        "parentUid" : "39921af74d2a247ba2d074b60477301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513486415,
+          "stop" : 1703513487016,
+          "duration" : 601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "e7cde5e51639390",
+        "parentUid" : "39921af74d2a247ba2d074b60477301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513486071,
+          "stop" : 1703513486399,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "e9952fa8b8f67bf5",
+        "parentUid" : "39921af74d2a247ba2d074b60477301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513485699,
+          "stop" : 1703513486040,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "2e6796c652055a8f",
+        "parentUid" : "39921af74d2a247ba2d074b60477301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513484847,
+          "stop" : 1703513485309,
+          "duration" : 462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "7182cdcef2e41566",
+        "parentUid" : "39921af74d2a247ba2d074b60477301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703513485343,
+          "stop" : 1703513485684,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      } ],
+      "uid" : "39921af74d2a247ba2d074b60477301f"
+    }, {
+      "name" : "1800-MainThread",
+      "children" : [ {
+        "name" : "删除部门",
+        "uid" : "bc6241ebf4c8230d",
+        "parentUid" : "ad6ba801fd07283831a49730ac5dfa7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703519848963,
+          "stop" : 1703519849699,
+          "duration" : 736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "7449bba7087ba453",
+        "parentUid" : "ad6ba801fd07283831a49730ac5dfa7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703519848046,
+          "stop" : 1703519848380,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "9a36e940cac74c7",
+        "parentUid" : "ad6ba801fd07283831a49730ac5dfa7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703519847647,
+          "stop" : 1703519848030,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "e787a933253342cd",
+        "parentUid" : "ad6ba801fd07283831a49730ac5dfa7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703519848395,
+          "stop" : 1703519848680,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "a1a484c60da12946",
+        "parentUid" : "ad6ba801fd07283831a49730ac5dfa7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703519848697,
+          "stop" : 1703519848947,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad6ba801fd07283831a49730ac5dfa7b"
+    }, {
+      "name" : "9444-MainThread",
+      "children" : [ {
+        "name" : "获取子部门ID列表",
+        "uid" : "2a8dfcb4665da46b",
+        "parentUid" : "e207f497fe83f415e089418ce7317ee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512536868,
+          "stop" : 1703512537120,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "cb6b936472d24f7e",
+        "parentUid" : "e207f497fe83f415e089418ce7317ee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512535535,
+          "stop" : 1703512536021,
+          "duration" : 486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除部门",
+        "uid" : "94e061537bc6cffa",
+        "parentUid" : "e207f497fe83f415e089418ce7317ee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512537137,
+          "stop" : 1703512537920,
+          "duration" : 783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "26fbb32dc3ceed13",
+        "parentUid" : "e207f497fe83f415e089418ce7317ee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512536053,
+          "stop" : 1703512536526,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "2e71cb4e05edf2d6",
+        "parentUid" : "e207f497fe83f415e089418ce7317ee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512536540,
+          "stop" : 1703512536852,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      } ],
+      "uid" : "e207f497fe83f415e089418ce7317ee2"
+    }, {
+      "name" : "11932-MainThread",
+      "children" : [ {
+        "name" : "创建部门",
+        "uid" : "6341d550a4df17d2",
+        "parentUid" : "6e6851cb292ee143b787c4b76fa9e9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512419602,
+          "stop" : 1703512420071,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "9dfa6f1b4bc0b4e0",
+        "parentUid" : "6e6851cb292ee143b787c4b76fa9e9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512420832,
+          "stop" : 1703512421082,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "d39beb59253f1626",
+        "parentUid" : "6e6851cb292ee143b787c4b76fa9e9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512420078,
+          "stop" : 1703512420484,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "240aa8ccbb26777c",
+        "parentUid" : "6e6851cb292ee143b787c4b76fa9e9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512420487,
+          "stop" : 1703512420816,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "删除部门",
+        "uid" : "fb5a44441c0005f7",
+        "parentUid" : "6e6851cb292ee143b787c4b76fa9e9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703512421086,
+          "stop" : 1703512421751,
+          "duration" : 665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e6851cb292ee143b787c4b76fa9e9f7"
+    }, {
+      "name" : "11656-MainThread",
+      "children" : [ {
+        "name" : "删除部门",
+        "uid" : "fabd127e64243426",
+        "parentUid" : "7a53735bf00aa3ba1f3d68041a43bdaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510848445,
+          "stop" : 1703510849321,
+          "duration" : 876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "a0e8d443e91112d2",
+        "parentUid" : "7a53735bf00aa3ba1f3d68041a43bdaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510848186,
+          "stop" : 1703510848429,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "10a8f893c0b49cc9",
+        "parentUid" : "7a53735bf00aa3ba1f3d68041a43bdaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510847415,
+          "stop" : 1703510847781,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "861f003cd1ad198e",
+        "parentUid" : "7a53735bf00aa3ba1f3d68041a43bdaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510846839,
+          "stop" : 1703510847399,
+          "duration" : 560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "6b2e1e4210a1c93d",
+        "parentUid" : "7a53735bf00aa3ba1f3d68041a43bdaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703510847797,
+          "stop" : 1703510848171,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      } ],
+      "uid" : "7a53735bf00aa3ba1f3d68041a43bdaf"
+    }, {
+      "name" : "2552-MainThread",
+      "children" : [ {
+        "name" : "创建部门 反例",
+        "uid" : "e851a4f2e8e662",
+        "parentUid" : "bff335da23052145ff0d2a279355a362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521333369,
+          "stop" : 1703521333837,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+      }, {
+        "name" : "创建部门 反例",
+        "uid" : "f7378e76692599a2",
+        "parentUid" : "bff335da23052145ff0d2a279355a362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521332825,
+          "stop" : 1703521333337,
+          "duration" : 512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+      }, {
+        "name" : "获取子部门ID列表",
+        "uid" : "2abc21d945802857",
+        "parentUid" : "bff335da23052145ff0d2a279355a362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521333852,
+          "stop" : 1703521334085,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除部门",
+        "uid" : "3928bddc6d9e4038",
+        "parentUid" : "bff335da23052145ff0d2a279355a362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521334102,
+          "stop" : 1703521334754,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建部门",
+        "uid" : "ed340cac5a52f745",
+        "parentUid" : "bff335da23052145ff0d2a279355a362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703521332352,
+          "stop" : 1703521332809,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bff335da23052145ff0d2a279355a362"
+    } ],
+    "uid" : "72c8c6ec993c887d706da82073b11742"
+  } ]
+}

@@ -1,0 +1,25 @@
+INFO     util.logger_util:http_protocol.py:26 请求地址: https://qyapi.weixin.qq.com/cgi-bin/department/simplelist
+INFO     util.logger_util:http_protocol.py:28 请求参数: 
+{
+  "params": {
+    "id": 1,
+    "access_token": "o6LeoMmYNxkq3jopz8RFAU_t0KA6wW33EK8JTygIzdWpJ5eJDsJ4NIA7kBXO33EXFzsXbSd1oNkW_KIUivXdZTFagMdp_5IYczMMadVxOoZhrKw1lvFeuReGh21CICGM2p9JL7q0THwUMKCxx0tSqpxON00_wAWszOJbzju2sU6ahIfyASnWRg7crGjcS3VXyGjGJJ-_h2CCmbjXKKoDOw"
+  }
+}
+INFO     util.logger_util:http_protocol.py:30 响应结果: 
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department_id": [
+    {
+      "id": 1,
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}

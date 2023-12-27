@@ -1,0 +1,17 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 26 00:22:13 CST 2023","Tue Dec 26 00:22:13 CST 2023","468","testcase","test_department","TestDepartment","","","创建部门 反例","
+        反例: 创建部门
+        :param case: 测试案例
+        :return:
+        "
+"passed","Tue Dec 26 00:22:14 CST 2023","Tue Dec 26 00:22:14 CST 2023","652","testcase","test_department","TestDepartment","","","删除部门",""
+"passed","Tue Dec 26 00:22:12 CST 2023","Tue Dec 26 00:22:13 CST 2023","512","testcase","test_department","TestDepartment","","","创建部门 反例","
+        反例: 创建部门
+        :param case: 测试案例
+        :return:
+        "
+"passed","Tue Dec 26 00:22:12 CST 2023","Tue Dec 26 00:22:12 CST 2023","457","testcase","test_department","TestDepartment","","","创建部门","
+        创建部门
+        :return:
+        "
+"passed","Tue Dec 26 00:22:13 CST 2023","Tue Dec 26 00:22:14 CST 2023","233","testcase","test_department","TestDepartment","","","获取子部门ID列表",""

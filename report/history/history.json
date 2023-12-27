@@ -1,0 +1,102 @@
+{
+  "8d681fba9699231b19ce28755deb965c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2abc21d945802857",
+      "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure/#testresult/2abc21d945802857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521333852,
+        "stop" : 1703521334085,
+        "duration" : 233
+      }
+    } ]
+  },
+  "d63a9334823a3e60e3c4d79c654c4755" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7378e76692599a2",
+      "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure/#testresult/f7378e76692599a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521332825,
+        "stop" : 1703521333337,
+        "duration" : 512
+      }
+    } ]
+  },
+  "33bfe8329adef470303591ce448b04b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e851a4f2e8e662",
+      "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure/#testresult/e851a4f2e8e662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521333369,
+        "stop" : 1703521333837,
+        "duration" : 468
+      }
+    } ]
+  },
+  "c7c74cd0362331c84c3a07cc2899e68e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3928bddc6d9e4038",
+      "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure/#testresult/3928bddc6d9e4038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521334102,
+        "stop" : 1703521334754,
+        "duration" : 652
+      }
+    } ]
+  },
+  "d4820d1065f6b6eecbce152402b94b36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed340cac5a52f745",
+      "reportUrl" : "http://127.0.0.10:8999/job/test/10/allure/#testresult/ed340cac5a52f745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521332352,
+        "stop" : 1703521332809,
+        "duration" : 457
+      }
+    } ]
+  }
+}

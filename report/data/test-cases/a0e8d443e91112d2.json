@@ -1,0 +1,110 @@
+{
+  "uid" : "a0e8d443e91112d2",
+  "name" : "获取子部门ID列表",
+  "fullName" : "testcase.test_department.TestDepartment#test_sub_depart",
+  "historyId" : "8d681fba9699231b19ce28755deb965c",
+  "time" : {
+    "start" : 1703510848186,
+    "stop" : 1703510848429,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDepartment",
+    "time" : {
+      "start" : 1703510846517,
+      "stop" : 1703510846839,
+      "duration" : 322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "207fbd0231167bd9",
+      "name" : "log",
+      "source" : "207fbd0231167bd9.txt",
+      "type" : "text/plain",
+      "size" : 748
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDepartment::0",
+    "time" : {
+      "start" : 1703510849321,
+      "stop" : 1703510849321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门管理"
+  }, {
+    "name" : "epic",
+    "value" : "企业微信"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "WIN-M2JE9DMD391"
+  }, {
+    "name" : "thread",
+    "value" : "11656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0e8d443e91112d2.json",
+  "parameterValues" : [ ]
+}

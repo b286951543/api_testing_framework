@@ -1,0 +1,94 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_department",
+    "children" : [ {
+      "name" : "创建部门",
+      "uid" : "ed340cac5a52f745",
+      "parentUid" : "8fa8774407a0e5426688e4d83f3cd25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521332352,
+        "stop" : 1703521332809,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "创建部门 反例",
+      "uid" : "f7378e76692599a2",
+      "parentUid" : "8fa8774407a0e5426688e4d83f3cd25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521332825,
+        "stop" : 1703521333337,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'参数name为空': {'name': '', 'parentid': 1, 'expect': 40058}}" ]
+    }, {
+      "name" : "创建部门 反例",
+      "uid" : "e851a4f2e8e662",
+      "parentUid" : "8fa8774407a0e5426688e4d83f3cd25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521333369,
+        "stop" : 1703521333837,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'参数parentid为空': {'name': '广州研发中心', 'parentid': None, 'expect': 60004}}" ]
+    }, {
+      "name" : "获取子部门ID列表",
+      "uid" : "2abc21d945802857",
+      "parentUid" : "8fa8774407a0e5426688e4d83f3cd25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521333852,
+        "stop" : 1703521334085,
+        "duration" : 233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "删除部门",
+      "uid" : "3928bddc6d9e4038",
+      "parentUid" : "8fa8774407a0e5426688e4d83f3cd25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703521334102,
+        "stop" : 1703521334754,
+        "duration" : 652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_department"
+  } ]
+}

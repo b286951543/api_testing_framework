@@ -1,0 +1,16 @@
+INFO     util.logger_util:http_protocol.py:26 请求地址: https://qyapi.weixin.qq.com/cgi-bin/department/create
+INFO     util.logger_util:http_protocol.py:28 请求参数: 
+{
+  "json": {
+    "name": "广州研发中心",
+    "parentid": null
+  },
+  "params": {
+    "access_token": "o6LeoMmYNxkq3jopz8RFAU_t0KA6wW33EK8JTygIzdWpJ5eJDsJ4NIA7kBXO33EXFzsXbSd1oNkW_KIUivXdZTFagMdp_5IYczMMadVxOoZhrKw1lvFeuReGh21CICGM2p9JL7q0THwUMKCxx0tSqpxON00_wAWszOJbzju2sU6ahIfyASnWRg7crGjcS3VXyGjGJJ-_h2CCmbjXKKoDOw"
+  }
+}
+INFO     util.logger_util:http_protocol.py:30 响应结果: 
+{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1703519846312790437127526], from ip: 113.84.0.229, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}

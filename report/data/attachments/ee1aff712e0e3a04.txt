@@ -1,0 +1,32 @@
+INFO     util.logger_util:http_protocol.py:26 请求地址: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+INFO     util.logger_util:http_protocol.py:28 请求参数: 
+{
+  "params": {
+    "corpid": "ww4af43b9e53769c32",
+    "corpsecret": "yc1GQeSEjvcy3A844Q76LnIlSLS6cdADujTNk_nXq5g"
+  }
+}
+INFO     util.logger_util:http_protocol.py:30 响应结果: 
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "access_token": "B_7625fOgGdWZUzd9mPaNh3YF1J_pWRKB6k6W1h0sncanETkLwqnnbzm8lNAgSVIcBLCBp9AYbxr1EiN5-GXGEioIg0_5CsVaB9uR01jcqevQLSmlEq0n_ZUYFpJ3fYU6_KfeIgEFOoexeYK6U1ecmkNhUtEEp_mXqSFG6MLHKW_nm1k6_dyd-ssXIa9RE_z69_kXBhIDs-DJkbAp6IGhQ",
+  "expires_in": 7200
+}
+INFO     util.logger_util:http_protocol.py:26 请求地址: https://qyapi.weixin.qq.com/cgi-bin/department/create
+INFO     util.logger_util:http_protocol.py:28 请求参数: 
+{
+  "json": {
+    "name": "test_22193",
+    "parentid": 1
+  },
+  "params": {
+    "access_token": "B_7625fOgGdWZUzd9mPaNh3YF1J_pWRKB6k6W1h0sncanETkLwqnnbzm8lNAgSVIcBLCBp9AYbxr1EiN5-GXGEioIg0_5CsVaB9uR01jcqevQLSmlEq0n_ZUYFpJ3fYU6_KfeIgEFOoexeYK6U1ecmkNhUtEEp_mXqSFG6MLHKW_nm1k6_dyd-ssXIa9RE_z69_kXBhIDs-DJkbAp6IGhQ"
+  }
+}
+INFO     util.logger_util:http_protocol.py:30 响应结果: 
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "id": 2
+}
